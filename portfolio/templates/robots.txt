@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /media/
+
+Sitemap: https://othman.pythonanywhere.com/sitemap.xml

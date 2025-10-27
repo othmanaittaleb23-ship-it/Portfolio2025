@@ -1,0 +1,138 @@
+{% extends 'portfolio/base.html' %}
+{% load static %}
+
+{% block title %}Contact - {{ block.super }}{% endblock %}
+
+{% block content %}
+<!-- Hero Section -->
+<section class="hero-section-small py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 mx-auto text-center">
+                <h1 class="display-4 fw-bold text-white mb-4">Contactez-moi</h1>
+                <p class="lead text-light">N'hésitez pas à me contacter pour discuter de votre projet</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section class="py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 mx-auto">
+                <div class="row">
+                    <!-- Contact Form -->
+                    <div class="col-md-8">
+                        <div class="contact-form">
+                            <h3 class="mb-4">Envoyez-moi un message</h3>
+                            {% if messages %}
+                                {% for message in messages %}
+                                <div class="alert alert-{{ message.tags }} alert-dismissible fade show" role="alert">
+                                    {{ message }}
+                                    <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+                                </div>
+                                {% endfor %}
+                            {% endif %}
+                            
+                            <form method="post">
+                                {% csrf_token %}
+                                <div class="row">
+                                    <div class="col-md-6 mb-3">
+                                        <label for="{{ form.name.id_for_label }}" class="form-label">Nom</label>
+                                        {{ form.name }}
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <label for="{{ form.email.id_for_label }}" class="form-label">Email</label>
+                                        {{ form.email }}
+                                    </div>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="{{ form.subject.id_for_label }}" class="form-label">Sujet</label>
+                                    {{ form.subject }}
+                                </div>
+                                <div class="mb-3">
+                                    <label for="{{ form.message.id_for_label }}" class="form-label">Message</label>
+                                    {{ form.message }}
+                                </div>
+                                <button type="submit" class="btn btn-primary btn-lg">
+                                    <i class="fas fa-paper-plane me-2"></i>Envoyer le message
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                    
+                    <!-- Contact Info -->
+                    <div class="col-md-4">
+                        <div class="contact-info">
+                            <h3 class="mb-4">Informations de contact</h3>
+                            {% if about %}
+                            <div class="contact-item mb-4">
+                                <div class="d-flex align-items-center">
+                                    <div class="contact-icon me-3">
+                                        <i class="fas fa-envelope fa-lg text-primary"></i>
+                                    </div>
+                                    <div>
+                                        <h6>Email</h6>
+                                        <p class="mb-0">{{ about.email }}</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            {% if about.phone %}
+                            <div class="contact-item mb-4">
+                                <div class="d-flex align-items-center">
+                                    <div class="contact-icon me-3">
+                                        <i class="fas fa-phone fa-lg text-primary"></i>
+                                    </div>
+                                    <div>
+                                        <h6>Téléphone</h6>
+                                        <p class="mb-0">{{ about.phone }}</p>
+                                    </div>
+                                </div>
+                            </div>
+                            {% endif %}
+                            
+                            {% if about.location %}
+                            <div class="contact-item mb-4">
+                                <div class="d-flex align-items-center">
+                                    <div class="contact-icon me-3">
+                                        <i class="fas fa-map-marker-alt fa-lg text-primary"></i>
+                                    </div>
+                                    <div>
+                                        <h6>Localisation</h6>
+                                        <p class="mb-0">{{ about.location }}</p>
+                                    </div>
+                                </div>
+                            </div>
+                            {% endif %}
+                            
+                            <div class="social-links mt-4">
+                                <h6 class="mb-3">Suivez-moi</h6>
+                                {% if about.linkedin %}
+                                <a href="{{ about.linkedin }}" class="btn btn-outline-primary me-2" target="_blank">
+                                    <i class="fab fa-linkedin"></i>
+                                </a>
+                                {% endif %}
+                                {% if about.github %}
+                                <a href="{{ about.github }}" class="btn btn-outline-dark me-2" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                {% endif %}
+                                {% if about.website %}
+                                <a href="{{ about.website }}" class="btn btn-outline-info" target="_blank">
+                                    <i class="fas fa-globe"></i>
+                                </a>
+                                {% endif %}
+                            </div>
+                            {% endif %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}
+
+

@@ -1,0 +1,286 @@
+/* Custom Admin Styling */
+
+/* Header */
+#header {
+    background: linear-gradient(135deg, #10b981 0%, #059669 100%) !important;
+    color: white !important;
+}
+
+#header a,
+#header a:link,
+#header a:visited {
+    color: white !important;
+}
+
+#branding h1 {
+    color: white !important;
+    font-weight: 700 !important;
+}
+
+/* Module headers */
+.module h2,
+.module caption,
+.inline-group h2 {
+    background: linear-gradient(135deg, #10b981 0%, #059669 100%) !important;
+    color: white !important;
+}
+
+/* Buttons */
+.button,
+input[type=submit],
+input[type=button],
+.submit-row input,
+button {
+    background: #10b981 !important;
+    border: none !important;
+    color: white !important;
+    border-radius: 6px !important;
+    padding: 10px 20px !important;
+    font-weight: 500 !important;
+    transition: all 0.2s ease !important;
+}
+
+.button:hover,
+input[type=submit]:hover,
+input[type=button]:hover,
+.submit-row input:hover,
+button:hover {
+    background: #059669 !important;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(16, 185, 129, 0.3) !important;
+}
+
+.button.default,
+input[type=submit].default,
+.submit-row input.default {
+    background: #10b981 !important;
+}
+
+/* Links */
+a:link,
+a:visited {
+    color: #10b981 !important;
+}
+
+a:hover {
+    color: #059669 !important;
+}
+
+/* Breadcrumbs */
+div.breadcrumbs {
+    background: #f3f4f6 !important;
+    border-radius: 8px !important;
+    padding: 12px 20px !important;
+    margin-bottom: 20px !important;
+}
+
+/* Change list */
+#changelist {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Tables */
+#result_list {
+    border-radius: 8px !important;
+    overflow: hidden !important;
+}
+
+#result_list thead th {
+    background: #f3f4f6 !important;
+    color: #1f2937 !important;
+    font-weight: 600 !important;
+    border-bottom: 2px solid #10b981 !important;
+}
+
+#result_list tbody tr:hover {
+    background: #f0fdf4 !important;
+}
+
+/* Forms */
+.form-row {
+    padding: 15px 10px !important;
+    border-bottom: 1px solid #e5e7eb !important;
+}
+
+.form-row:last-child {
+    border-bottom: none !important;
+}
+
+/* Field labels */
+label {
+    font-weight: 600 !important;
+    color: #374151 !important;
+}
+
+/* Help text */
+.help {
+    color: #6b7280 !important;
+    font-size: 13px !important;
+}
+
+/* Fieldsets */
+fieldset.module {
+    background: white !important;
+    border-radius: 10px !important;
+    padding: 20px !important;
+    margin-bottom: 20px !important;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05) !important;
+}
+
+/* Success messages */
+.success,
+.messagelist .success {
+    background: #d1fae5 !important;
+    border-left: 4px solid #10b981 !important;
+    color: #065f46 !important;
+}
+
+/* Error messages */
+.error,
+.messagelist .error,
+.errornote {
+    background: #fee2e2 !important;
+    border-left: 4px solid #dc2626 !important;
+    color: #991b1b !important;
+}
+
+/* Warning messages */
+.warning,
+.messagelist .warning {
+    background: #fef3c7 !important;
+    border-left: 4px solid #f59e0b !important;
+    color: #92400e !important;
+}
+
+/* Dashboard modules */
+.module {
+    border-radius: 10px !important;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05) !important;
+}
+
+/* Action checkboxes */
+.action-checkbox {
+    accent-color: #10b981 !important;
+}
+
+/* Pagination */
+.paginator {
+    color: #6b7280 !important;
+}
+
+.paginator a:link,
+.paginator a:visited {
+    background: white !important;
+    border: 1px solid #e5e7eb !important;
+    color: #374151 !important;
+    padding: 5px 10px !important;
+    border-radius: 5px !important;
+    margin: 0 2px !important;
+}
+
+.paginator a:hover {
+    background: #10b981 !important;
+    color: white !important;
+    border-color: #10b981 !important;
+}
+
+.paginator .this-page {
+    background: #10b981 !important;
+    color: white !important;
+    padding: 5px 10px !important;
+    border-radius: 5px !important;
+}
+
+/* Filters */
+#changelist-filter {
+    background: white !important;
+    border-radius: 10px !important;
+    padding: 15px !important;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05) !important;
+}
+
+#changelist-filter h2 {
+    background: #f3f4f6 !important;
+    color: #1f2937 !important;
+    padding: 10px !important;
+    border-radius: 5px !important;
+    margin-bottom: 10px !important;
+}
+
+#changelist-filter li.selected a {
+    color: #10b981 !important;
+    font-weight: 600 !important;
+}
+
+/* Search bar */
+#changelist-search {
+    background: white !important;
+    border-radius: 10px !important;
+    padding: 15px !important;
+    margin-bottom: 20px !important;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05) !important;
+}
+
+#searchbar {
+    border: 2px solid #e5e7eb !important;
+    border-radius: 8px !important;
+    padding: 10px 15px !important;
+    font-size: 14px !important;
+}
+
+#searchbar:focus {
+    border-color: #10b981 !important;
+    outline: none !important;
+    box-shadow: 0 0 0 3px rgba(16, 185, 129, 0.1) !important;
+}
+
+/* Date hierarchy */
+.xfull {
+    background: white !important;
+    border-radius: 10px !important;
+    padding: 15px !important;
+    margin-bottom: 20px !important;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05) !important;
+}
+
+/* Inline forms */
+.inline-group {
+    border-radius: 10px !important;
+    overflow: hidden !important;
+}
+
+/* Object tools */
+.object-tools {
+    margin-bottom: 20px !important;
+}
+
+.object-tools li a {
+    background: #10b981 !important;
+    border-radius: 6px !important;
+    padding: 10px 20px !important;
+}
+
+.object-tools li a:hover {
+    background: #059669 !important;
+}
+
+/* Dashboard */
+#content-main {
+    padding: 20px !important;
+}
+
+.dashboard .module table {
+    border-radius: 8px !important;
+    overflow: hidden !important;
+}
+
+/* Custom badges and icons */
+.fa,
+.fas,
+.far,
+.fab {
+    margin-right: 5px;
+}

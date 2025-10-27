@@ -1,0 +1,433 @@
+[
+  {
+    "model": "portfolio.about",
+    "pk": 1,
+    "fields": {
+      "name": "Othman AIT TALEB",
+      "title": "Développeur Full Stack & Analyste de Données",
+      "description": "Développeur passionné avec une expertise en développement web full-stack et analyse de données. Spécialisé dans la création de solutions web modernes et performantes avec Django, React et les technologies cloud. Expérience en développement d'applications web, analyse de données et optimisation de processus.",
+  "profile_image": "/static/images/project.jpg",
+      "email": "tarifs.othmanaittaleb23@gmail.com",
+      "phone": "0643-481344",
+      "location": "Maroc",
+      "linkedin": "https://linkedin.com/in/othman-ait-taleb",
+      "github": "https://github.com/3tttman",
+      "website": "",
+      "cv": "cv/CV_Othman_Ait_Taleb.pdf",
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "portfolio.project",
+    "pk": 1,
+    "fields": {
+      "title": "Portfolio Personnel",
+      "description": "Développement d'un portfolio personnel avec Django et React pour présenter mes compétences et projets.",
+      "short_description": "Portfolio personnel développé avec Django et React",
+  "image": "/static/images/project.jpg",
+      "technologies": "Django, React, Bootstrap, PostgreSQL",
+      "github_url": "https://github.com/3tttman/portfolio",
+      "live_url": "https://othman-ait-taleb.vercel.app/",
+      "is_featured": true,
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "portfolio.project",
+    "pk": 2,
+    "fields": {
+      "title": "Application de Gestion de Tâches",
+      "description": "Application web de gestion de tâches avec authentification utilisateur et interface réactive.",
+      "short_description": "Gestion de tâches avec Django et JavaScript",
+  "image": "/static/images/project.jpg",
+      "technologies": "Django, JavaScript, SQLite, Bootstrap",
+      "github_url": "https://github.com/3tttman/todo-app",
+      "live_url": "",
+      "is_featured": true,
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "portfolio.project",
+    "pk": 3,
+    "fields": {
+      "title": "Analyse de Données",
+      "description": "Analyse de données avec Python et création de visualisations interactives.",
+      "short_description": "Analyse de données avec Python et Pandas",
+  "image": "/static/images/analyse-data.jpg",
+      "technologies": "Python, Pandas, Matplotlib, Jupyter",
+      "github_url": "https://github.com/3tttman/data-analysis",
+      "live_url": "",
+      "is_featured": true,
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "portfolio.skill",
+    "pk": 1,
+    "fields": {
+      "name": "Python",
+      "level": 90,
+      "icon": "fab fa-python",
+      "category": "programming",
+      "is_active": true,
+      "order": 1
+    }
+  },
+  {
+    "model": "portfolio.skill",
+    "pk": 2,
+    "fields": {
+      "name": "JavaScript",
+      "level": 80,
+      "icon": "fab fa-js",
+      "category": "programming",
+      "is_active": true,
+      "order": 2
+    }
+  },
+  {
+    "model": "portfolio.skill",
+    "pk": 3,
+    "fields": {
+      "name": "React",
+      "level": 75,
+      "icon": "fab fa-react",
+      "category": "framework",
+      "is_active": true,
+      "order": 3
+    }
+  },
+  {
+    "model": "portfolio.skill",
+    "pk": 4,
+    "fields": {
+      "name": "SQL",
+      "level": 85,
+      "icon": "fas fa-database",
+      "category": "database",
+      "is_active": true,
+      "order": 4
+    }
+  },
+  {
+    "model": "portfolio.skill",
+    "pk": 5,
+    "fields": {
+      "name": "Git",
+      "level": 90,
+      "icon": "fab fa-git-alt",
+      "category": "tools",
+      "is_active": true,
+      "order": 5
+    }
+  },
+  {
+    "model": "portfolio.skill",
+    "pk": 6,
+    "fields": {
+      "name": "Docker",
+      "level": 75,
+      "icon": "fab fa-docker",
+      "category": "tools",
+      "is_active": true,
+      "order": 6
+    }
+  },
+  {
+    "model": "portfolio.skill",
+    "pk": 7,
+    "fields": {
+      "name": "HTML",
+      "level": 85,
+      "icon": "fab fa-html5",
+      "category": "programming",
+      "is_active": true,
+      "order": 7
+    }
+  },
+  {
+    "model": "portfolio.skill",
+    "pk": 8,
+    "fields": {
+      "name": "CSS",
+      "level": 80,
+      "icon": "fab fa-css3-alt",
+      "category": "programming",
+      "is_active": true,
+      "order": 8
+    }
+  },
+  {
+    "model": "portfolio.skill",
+    "pk": 9,
+    "fields": {
+      "name": "MySQL",
+      "level": 75,
+      "icon": "fas fa-database",
+      "category": "database",
+      "is_active": true,
+      "order": 9
+    }
+  },
+  {
+    "model": "portfolio.skill",
+    "pk": 10,
+    "fields": {
+      "name": "Linux",
+      "level": 70,
+      "icon": "fab fa-linux",
+      "category": "tools",
+      "is_active": true,
+      "order": 10
+    }
+  },
+  {
+    "model": "portfolio.skill",
+    "pk": 11,
+    "fields": {
+      "name": "Agile",
+      "level": 80,
+      "icon": "fas fa-users",
+      "category": "soft",
+      "is_active": true,
+      "order": 11
+    }
+  },
+  {
+    "model": "portfolio.skill",
+    "pk": 12,
+    "fields": {
+      "name": "Scrum",
+      "level": 75,
+      "icon": "fas fa-tasks",
+      "category": "soft",
+      "is_active": true,
+      "order": 12
+    }
+  },
+  {
+    "model": "portfolio.skill",
+    "pk": 13,
+    "fields": {
+      "name": "Communication",
+      "level": 85,
+      "icon": "fas fa-comments",
+      "category": "soft",
+      "is_active": true,
+      "order": 13
+    }
+  }
+  ,
+  {
+    "model": "portfolio.skill",
+    "pk": 14,
+    "fields": {
+      "name": "TCP/IP",
+      "level": 80,
+      "icon": "fas fa-network-wired",
+      "category": "tools",
+      "is_active": true,
+      "order": 14
+    }
+  },
+  {
+    "model": "portfolio.skill",
+    "pk": 15,
+    "fields": {
+      "name": "VLAN",
+      "level": 75,
+      "icon": "fas fa-network-wired",
+      "category": "tools",
+      "is_active": true,
+      "order": 15
+    }
+  },
+  {
+    "model": "portfolio.skill",
+    "pk": 16,
+    "fields": {
+      "name": "VPN",
+      "level": 75,
+      "icon": "fas fa-shield-alt",
+      "category": "tools",
+      "is_active": true,
+      "order": 16
+    }
+  },
+  {
+    "model": "portfolio.skill",
+    "pk": 17,
+    "fields": {
+      "name": "Pare-feu",
+      "level": 75,
+      "icon": "fas fa-shield-alt",
+      "category": "tools",
+      "is_active": true,
+      "order": 17
+    }
+  },
+  {
+    "model": "portfolio.skill",
+    "pk": 18,
+    "fields": {
+      "name": "UML",
+      "level": 70,
+      "icon": "fas fa-project-diagram",
+      "category": "tools",
+      "is_active": true,
+      "order": 18
+    }
+  },
+  {
+    "model": "portfolio.skill",
+    "pk": 19,
+    "fields": {
+      "name": "Merise",
+      "level": 70,
+      "icon": "fas fa-project-diagram",
+      "category": "tools",
+      "is_active": true,
+      "order": 19
+    }
+  },
+  {
+    "model": "portfolio.skill",
+    "pk": 20,
+    "fields": {
+      "name": "Goautodial",
+      "level": 60,
+      "icon": "fas fa-phone",
+      "category": "tools",
+      "is_active": true,
+      "order": 20
+    }
+  },
+  {
+    "model": "portfolio.skill",
+    "pk": 21,
+    "fields": {
+      "name": "VirtualBox",
+      "level": 65,
+      "icon": "fas fa-box-open",
+      "category": "tools",
+      "is_active": true,
+      "order": 21
+    }
+  },
+  {
+    "model": "portfolio.skill",
+    "pk": 22,
+    "fields": {
+      "name": "Android Studio",
+      "level": 70,
+      "icon": "fab fa-android",
+      "category": "tools",
+      "is_active": true,
+      "order": 22
+    }
+  },
+  {
+    "model": "portfolio.skill",
+    "pk": 23,
+    "fields": {
+      "name": "PowerBI",
+      "level": 65,
+      "icon": "fas fa-chart-line",
+      "category": "tools",
+      "is_active": true,
+      "order": 23
+    }
+  },
+  {
+    "model": "portfolio.skill",
+    "pk": 24,
+    "fields": {
+      "name": "SQL Server",
+      "level": 75,
+      "icon": "fas fa-database",
+      "category": "database",
+      "is_active": true,
+      "order": 24
+    }
+  },
+  {
+    "model": "portfolio.skill",
+    "pk": 25,
+    "fields": {
+      "name": "Oracle",
+      "level": 75,
+      "icon": "fas fa-database",
+      "category": "database",
+      "is_active": true,
+      "order": 25
+    }
+  },
+  {
+    "model": "portfolio.skill",
+    "pk": 26,
+    "fields": {
+      "name": "Java",
+      "level": 80,
+      "icon": "fab fa-java",
+      "category": "programming",
+      "is_active": true,
+      "order": 26
+    }
+  },
+  {
+    "model": "portfolio.skill",
+    "pk": 27,
+    "fields": {
+      "name": "C / C++ / C#",
+      "level": 70,
+      "icon": "fas fa-code",
+      "category": "programming",
+      "is_active": true,
+      "order": 27
+    }
+  },
+  {
+    "model": "portfolio.skill",
+    "pk": 28,
+    "fields": {
+      "name": "Bash",
+      "level": 70,
+      "icon": "fas fa-terminal",
+      "category": "programming",
+      "is_active": true,
+      "order": 28
+    }
+  },
+  {
+    "model": "portfolio.skill",
+    "pk": 29,
+    "fields": {
+      "name": "PHP",
+      "level": 65,
+      "icon": "fab fa-php",
+      "category": "programming",
+      "is_active": true,
+      "order": 29
+    }
+  },
+  {
+    "model": "portfolio.skill",
+    "pk": 30,
+    "fields": {
+      "name": "Windows Server",
+      "level": 70,
+      "icon": "fab fa-windows",
+      "category": "tools",
+      "is_active": true,
+      "order": 30
+    }
+  }
+]
